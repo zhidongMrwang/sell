@@ -11,6 +11,7 @@ import buySubmit from '../components/buySubmit/buySubmit';
 
 
 export default new Router({
+  mode: 'history',
   linkActiveClass: 'active',
   linkExactActiveClass: '',
   data() {

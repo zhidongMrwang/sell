@@ -21,7 +21,7 @@
 <script type="text/ecmascript-6">
   import {urlParts} from "./common/js/util";
   import header from './components/header/header.vue';
-  import seller from '../data.json'
+  import seller from '../data.json';
 
   export default {
     data() {

@@ -53,7 +53,9 @@
         <div class="pic-wrapper" ref="picWrapper" >
           <ul class="pic-list" ref="pic">
             <li class="pic-item" v-for="pic in seller.pics">
-              <img :src="pic" width="120" height="90">
+              <a :href="pic"  >
+              <img :src="pic" width="120"  height="90">
+              </a>
             </li>
           </ul>
         </div>
